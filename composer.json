@@ -15,7 +15,6 @@
             "email": "googalltooth@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "Iks\\Symfony1SIntegration\\": "src/"
