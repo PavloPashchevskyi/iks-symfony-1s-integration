@@ -9,8 +9,5 @@ namespace Iks\Symfony1SIntegration\Interfaces;
  */
 interface EventDispatcherInterface
 {
-    /**
-     * @param EventInterface $event
-     */
     public function dispatch(EventInterface $event): void;
 }
