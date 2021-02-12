@@ -65,7 +65,6 @@ class SaleService extends AbstractService
      */
     public function query(string $filePath): string
     {
-        $this->authService->auth();
         if (substr($filePath, -10) === 'orders.xml') {
             throw new \LogicException('This method is not released');
         }

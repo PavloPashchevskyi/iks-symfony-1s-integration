@@ -1,7 +1,7 @@
 {
     "name": "iks/symfony-1s-integration",
     "type": "library",
-    "version": "1.1.0-dev",
+    "version": "1.1.1-dev",
     "description": "Orders exchanger between 1c and Symfony4 application via CommerceML protocol",
     "keywords": ["1c-integration", "1c-symfony", "1c",  "1c-php", "1s-integration", "1s-symfony", "1s", "CommerceML"],
     "homepage": "https://github.com/PavloPashchevskyi",
