@@ -84,7 +84,7 @@ class SaleService extends AbstractService
      */
     public function success(string $filePath): string
     {
-        if (empty($filePath)) {
+        if (empty($filePath) || !is_file($filePath)) {
             return "failure\n";
         }
         $content = file_get_contents($filePath);
